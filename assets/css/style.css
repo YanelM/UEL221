@@ -1037,11 +1037,11 @@ a:hover {
 	line-height: 80px;	
 	text-align :center;
 }
-.un { transform: translateZ(110px) translateX(-40px); }
-.deux { transform: rotateY(75deg) translateZ(160px) translateX(95px); }
-.trois {transform: rotateY(-75deg) translateZ(237px) translateX(-115px);}
-.quatre { transform: rotateY(150deg) translateZ(320px) translateX(65px); }
-.cinq { transform: rotateY(-150deg) translateZ(360px) translateX(5px); }
+.un { transform: rotateY(0deg) translateZ(250px); }
+.deux { transform: rotateY(72deg) translateZ(250px); }
+.trois { transform: rotateY(144deg) translateZ(250px); }
+.quatre { transform: rotateY(216deg) translateZ(250px); }
+.cinq { transform: rotateY(288deg) translateZ(250px); }
 @keyframes anim_pentagone
 {
 	0% { transform: rotateY(0deg); }
