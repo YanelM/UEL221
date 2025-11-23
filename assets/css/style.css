@@ -561,6 +561,10 @@ a:hover {
 .tops-price {
     font-weight: bold;
     font-size: 1.1rem;
+	transition: 0.3s ease; /* Animation fluide */
+}
+.tops-item:hover .tops-price {
+    transform: translateX(-20px); /* Déplace le texte du prix vers la gauche de 20px */
 }
 .tops-legend {
     color: var(--gray-color);
