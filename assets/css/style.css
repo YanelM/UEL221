@@ -463,6 +463,9 @@ a:hover {
     flex: 0 0 33.33%;
     padding: 0 .5rem 1rem .5rem;
 }
+.ideas-col:hover {
+	transform: scale(0.9rem);
+}
 @media screen and (max-width: 64rem) {
     .ideas-col {
         flex-basis: 50%;
