@@ -1038,7 +1038,7 @@ a:hover {
 	width: 300px;
 	height: 130px;
 	border: 2px solid #fff;
-	background: #811810e3;
+	background: #811810e3; /* Rends les faces un petit peu transparentes */
 	font-size: 100px;
 	font-family: "Arial";
 	color: #fff;
