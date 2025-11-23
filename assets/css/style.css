@@ -465,7 +465,7 @@ a:hover {
 	transition: transform 0.3s ease;  /* animation fluide */
 }
 .ideas-col:hover {
-	transform: scale(0.9);
+	transform: scale(0.9); /* Au survol, réduit de 0.1 la taille de la div */
 }
 @media screen and (max-width: 64rem) {
     .ideas-col {
