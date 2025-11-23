@@ -1034,7 +1034,7 @@ a:hover {
 	width: 300px;
 	height: 130px;
 	border: 2px solid #fff;
-	background: rgba(160, 15, 15, 0.8);
+	background: var(--secondary-color);
 	font-size: 100px;
 	font-family: "Arial";
 	color: #fff;
