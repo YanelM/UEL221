@@ -1124,12 +1124,20 @@ a:hover {
 }
 .footer-social-icon.icon-facebook {
     background-image: url(../images/icons/facebook.png);
+	transition: transform 0.3s ease;
 }
 .footer-social-icon.icon-instagram {
     background-image: url(../images/icons/instagram.png);
+	transition: transform 0.3s ease;
 }
 .footer-social-icon.icon-youtube {
     background-image: url(../images/icons/youtube.png);
+	transition: transform 0.3s ease;
+}
+.footer-social-icon.icon-facebook:hover,
+.footer-social-icon.icon-instagram:hover,
+.footer-social-icon.icon-youtube:hover {
+    transform: rotateY(360deg);
 }
 
 
