@@ -1125,14 +1125,17 @@ a:hover {
 .footer-social-icon.icon-facebook {
     background-image: url(../images/icons/facebook.png);
 	transition: transform 0.3s ease;
+	transform-style: preserve-3d;
 }
 .footer-social-icon.icon-instagram {
     background-image: url(../images/icons/instagram.png);
 	transition: transform 0.3s ease;
+	transform-style: preserve-3d;
 }
 .footer-social-icon.icon-youtube {
     background-image: url(../images/icons/youtube.png);
 	transition: transform 0.3s ease;
+	transform-style: preserve-3d;
 }
 .icon-facebook:hover,
 .icon-instagram:hover,
