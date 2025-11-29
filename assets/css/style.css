@@ -358,6 +358,10 @@ a:hover {
     flex: 1 1 auto;
 }
 
+.search-form-item:hover {
+    box-shadow: 0 2px 8px var(--primary-color);
+}
+
 @media screen and (max-width: 64rem) {
     .search-form-item {
         flex-basis: 25%;
