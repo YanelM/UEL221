@@ -330,38 +330,56 @@
         </div><!-- eof .row -->
     </section><!-- eof .section-circuits -->
 
-	<section class="form_UE_L221">
+    <section class="form_UE_L221">
+        <div class="row">
         <form action="#" method="POST" class="L221-form">
             <fieldset class="L221-form-fieldset">
                 <legend class="L221-form-legend">CONTACTEZ-NOUS!</legend>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label class="L221-form-label" for="form-nom">Nom :</label>
+                        <input class="L221-form-input" type="text" name="form-nom" id="form-nom" placeholder="Saisissez votre nom et prénom">
+                    </div>
 
-                <label class="L221-form-label" for="form-nom">Nom :</label>
-                <input class="L221-form-input" type="text" name="form-nom" id="form-nom" placeholder="Saisissez votre nom et prénom">
+                    <div class="form-group">
+                        <label class="L221-form-label" for="form-email">Adresse e-mail :</label>
+                        <input class="L221-form-input" type="text" name="form-email" id="form-email" placeholder="Saisissez votre adresse e-mail">
+                    </div>
 
-                <label class="L221-form-label" for="form-email">Adresse e-mail :</label>
-                <input class="L221-form-input" type="text" name="form-email" id="form-email" placeholder="Saisissez votre adresse e-mail">
+                    <div class="form-group">
+                        <label class="L221-form-label" for="form-telephone">Téléphone (optionnel) :</label>
+                        <input class="L221-form-input" type="text" name="form-telephone" id="form-telephone" placeholder="Saisissez votre numéro de téléphone">
+                    </div>
 
-                <label class="L221-form-label" for="form-telephone">Téléphone (optionnel) :</label>
-                <input class="L221-form-input" type="text" name="form-telephone" id="form-telephone" placeholder="Saisissez votre numéro de téléphone">
-                    
-                <label class="L221-form-label" for="form-objet">Objet du message : </label>
-                <select class="L221-form-input" name="form-objet" id="form-objet" required>
-                    <option value="">Demande d’information</option>
-                    <option value="1">Réservation</option>
-                    <option value="2">Devis</option>
-                    <option value="3">Réclamation</option>
-                </select>
+                    <div class="form-group">
+                        <label class="L221-form-label" for="form-objet">Objet du message : </label>
+                        <select class="L221-form-input" name="form-objet" id="form-objet" required>
+                            <option value="">Demande d’information</option>
+                            <option value="1">Réservation</option>
+                            <option value="2">Devis</option>
+                            <option value="3">Réclamation</option>
+                        </select>
+                    </div>
 
-                <label class="L221-form-label" for="form-message">Message :</label>
-                <textarea class="L221-form-input" name="form-message" id="form-message" placeholder="Saisissez votre message"></textarea>
-   
-                <label class="L221-form-label" for="form-conformité">J'ai lu et accepté les conditions d'utilisation : </label>
-                <input class="L221-form-input" type="checkbox" name="form-conformité" id="form-conformité">
-                    
-                <input class="L221-form-submit L221-button" type="submit" value="Valider">                             
-            </fieldset>
-        </form>
-    </section>
+                    <div class="form-group">
+                        <label class="L221-form-label" for="form-message">Message :</label>
+                        <textarea class="L221-form-input" name="form-message" id="form-message" placeholder="Saisissez votre message"></textarea>
+                    </div>
+
+                    <div>
+                        <label class="L221-form-label" for="form-conformité">J'ai lu et accepté les conditions d'utilisation : </label>
+                        <input class="L221-form-input" type="checkbox" name="form-conformité" id="form-conformité">
+                    </div>
+                </div> <!-- eof .form-grid -->
+
+                <div class="btn-container">
+                    <input class="L221-form-submit button" type="submit" value="Valider"> 
+                </div>
+                                            
+            </fieldset> <!-- eof .L221-form-fieldset -->
+        </form> <!-- eof .L221-form -->
+        </div> <!-- eof .row -->
+    </section> <!-- eof .form_UE_L221 -->
 	
     <footer id="footer">
         <div class="row">
