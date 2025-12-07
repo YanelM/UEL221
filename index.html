@@ -332,56 +332,59 @@
     </section><!-- eof .section-circuits -->
 
     <section class="form_UE_L221">
-        <div class="row">
-        <form action="#" method="POST" class="L221-form">
-            <fieldset class="L221-form-fieldset">
-                <legend class="L221-form-legend">CONTACTEZ-NOUS!</legend>
-                <div class="form-grid">
-                    <div class="form-group">
-                        <label class="L221-form-label" for="form-nom">Nom :</label>
-                        <input class="L221-form-input" type="text" name="form-nom" id="form-nom" placeholder="Saisissez votre nom et prénom">
-                    </div>
-
-                    <div class="form-group">
-                        <label class="L221-form-label" for="form-email">Adresse e-mail :</label>
-                        <input class="L221-form-input" type="text" name="form-email" id="form-email" placeholder="Saisissez votre adresse e-mail">
-                    </div>
-
-                    <div class="form-group">
-                        <label class="L221-form-label" for="form-telephone">Téléphone (optionnel) :</label>
-                        <input class="L221-form-input" type="text" name="form-telephone" id="form-telephone" placeholder="Saisissez votre numéro de téléphone">
-                    </div>
-
-                    <div class="form-group">
-                        <label class="L221-form-label" for="form-objet">Objet du message : </label>
-                        <select class="L221-form-input" name="form-objet" id="form-objet" required>
-                            <option value="">Demande d’information</option>
-                            <option value="1">Réservation</option>
-                            <option value="2">Devis</option>
-                            <option value="3">Réclamation</option>
-                        </select>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="L221-form-label" for="form-message">Message :</label>
-                        <textarea class="L221-form-input" name="form-message" id="form-message" placeholder="Saisissez votre message"></textarea>
-                    </div>
-
-                    <div>
-                        <label class="L221-form-label" for="form-conformité">J'ai lu et accepté les conditions d'utilisation : </label>
-                        <input class="L221-form-input" type="checkbox" name="form-conformité" id="form-conformité">
-                    </div>
-                </div> <!-- eof .form-grid -->
-
-                <div class="btn-container">
-                    <input class="L221-form-submit button" type="submit" value="Valider"> 
-                </div>
-                                            
-            </fieldset> <!-- eof .L221-form-fieldset -->
-        </form> <!-- eof .L221-form -->
-        </div> <!-- eof .row -->
-		<div id="ma-zone-bootstrap"></div>
-    </section> <!-- eof .form_UE_L221 -->
+        <div id="ma-zone-bootstrap">
+            <div id="zone-form">
+                <div class="container my-5 form-fond">
+	                <h2 class="mb-4">CONTACTEZ-NOUS!</h2>
+	                <form action="#" method="POST">
+	                    <div class="row g-3">
+	                    <div class="col-md-6">
+	                        <label for="form-nom" class="form-label">Nom :</label>
+	                        <input type="text" class="form-control" name="form-nom" id="form-nom" placeholder="Saisissez votre nom et prénom" required>
+	                    </div>
+	
+	                    <div class="col-md-6">
+	                        <label for="form-email" class="form-label">Adresse e-mail :</label>
+	                        <input type="email" class="form-control" name="form-email" id="form-email" placeholder="Saisissez votre adresse e-mail" required>
+	                    </div>
+	
+	                    <div class="col-md-6">
+	                        <label for="form-telephone" class="form-label">Téléphone (optionnel) :</label>
+	                        <input type="tel" class="form-control" name="form-telephone" id="form-telephone" placeholder="Saisissez votre numéro de téléphone">
+	                    </div>
+	
+	                    <div class="col-md-6">
+	                        <label for="form-objet" class="form-label">Objet du message :</label>
+	                        <select class="form-select" name="form-objet" id="form-objet" required>
+	                        <option value="">Demande d’information</option>
+	                        <option value="1">Réservation</option>
+	                        <option value="2">Devis</option>
+	                        <option value="3">Réclamation</option>
+	                        </select>
+	                    </div>
+	
+	                    <div class="col-12">
+	                        <label for="form-message" class="form-label">Message :</label>
+	                        <textarea class="form-control" name="form-message" id="form-message" placeholder="Saisissez votre message" rows="5" required></textarea>
+	                    </div>
+	
+	                    <div class="col-12 form-check">
+	                        <input class="form-check-input" type="checkbox" name="form-conformité" id="form-conformité" required>
+	                        <label class="form-check-label" for="form-conformité">
+	                        J'ai lu et accepté les conditions d'utilisation
+	                        </label>
+	                    </div>
+	
+	                    <div class="col-12">
+	                        <button type="submit" class="btn btn-primary btn-custom">Valider</button>
+	                    </div>
+	                    </div>
+	                </form>
+	            </div>
+	        </div><!-- eof .zone-form -->
+	        <div id="video"></div>
+        </div><!-- eof #ma-zone-bootstrap -->
+    </section><!-- eof .form_UE_L221 -->
 	
     <footer id="footer">
         <div class="row">
