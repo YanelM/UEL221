@@ -99,3 +99,9 @@ input[type="checkbox"] {
 select {
     background-color: var(--white-color);
 }
+
+/* Partie vidéo */
+
+#ma-zone-bootstrap {
+    margin: 3rem 0;
+}
